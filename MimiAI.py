@@ -7,12 +7,13 @@ from telethon.tl.functions.messages import SetTypingRequest
 from telethon.tl.types import SendMessageTypingAction
 from telethon.errors import ChannelPrivateError
 
+# meta developer: @dealdoxer
+
 @loader.tds
 class MimiAI(loader.Module):
     """Модуль для общения с MimiAI. v1.0.0"""
     strings = {"name": "MimiAI"}
     strings_ru = {"name": "MimiAI"}
-    # meta developer: @dealdoxer
 
     def __init__(self):
         self.pending_requests = {}
