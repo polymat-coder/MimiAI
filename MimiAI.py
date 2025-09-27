@@ -9,7 +9,7 @@ from telethon.errors import ChannelPrivateError
 
 @loader.tds
 class MimiAI(loader.Module):
-    f"""Модуль для общения с MimiAI. v1.0.0"""
+    """Модуль для общения с MimiAI. v1.0.0"""
     strings = {"name": "MimiAI"}
     strings_ru = {"name": "MimiAI"}
     # meta developer: @dealdoxer
