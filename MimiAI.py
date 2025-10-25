@@ -1,4 +1,4 @@
-from hikkatl.types import Message
+from herokutl.types import Message
 from .. import loader, utils
 import asyncio
 from telethon.tl.functions.channels import CreateChannelRequest, InviteToChannelRequest
