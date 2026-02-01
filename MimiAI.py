@@ -6,7 +6,8 @@ from telethon.tl.functions.messages import SetTypingRequest
 from telethon.tl.types import SendMessageTypingAction
 from telethon.errors import ChannelPrivateError
 
-#meta developer: @dealdoxer
+# meta developer: @dealdoxer
+# meta banner: https://i.ibb.co/JwpB91Ht/image.jpg
 __version__ = (1, 0, 2)
 
 class MimiAI(loader.Module):
